@@ -1,0 +1,6 @@
+<div *ngFor="let move of moves" class="move">
+    <div *ngFor="let card of move.cards">
+        <app-card cardcode="{{card}}"></app-card>
+    </div>
+    <div>{{move.player}}</div>
+</div>

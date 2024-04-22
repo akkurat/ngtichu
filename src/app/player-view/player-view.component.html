@@ -1,0 +1,12 @@
+<div class="playerview">
+    <div class="actions">
+        <div class="action">Pass</div>
+        <div class="action">Play</div>
+        <div class="action">Bomb</div>
+    </div>
+    <div class="carddeck">
+        <div *ngFor="let card of cards" class="cardwrapper">
+            <app-card cardcode="{{card}}"></app-card>
+        </div>
+    </div>
+</div>

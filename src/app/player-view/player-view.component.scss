@@ -1,0 +1,20 @@
+.playerview {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.carddeck {
+    max-width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 0;
+
+    .selected {
+        margin-bottom: 50px;
+    }
+}
+
+.cardwrapper {
+    width: 50px;
+    max-width: 5vw;
+}
